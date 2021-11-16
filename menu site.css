@@ -1,0 +1,60 @@
+
+#menu{
+
+    list-style-type:none;
+    background:linear-gradient(0deg,rgba(rgb(241, 8, 8), rgb(238, 7, 199), rgb(252, 5, 169), alpha),rgba(rgb(0, 255, 115), rgb(234, 238, 7), rgb(8, 173, 238), alpha), rgba(rgb(0, 255, 115), rgb(234, 238, 7), rgb(8, 173, 238), alpha));
+    font-family:Arial, Helvetica, sans-serif;
+    padding-right: 0px;
+    overflow: visible;
+    position: absolute;
+    
+}
+
+#menu li{
+    float:right;
+    display: inline;
+    margin: 30px;
+}
+
+#menu li a
+{   
+    text-decoration: none;
+    color: rgb(29, 26, 26);
+    padding:25px;
+    background:linear-gradient(0deg, rgb(7, 238, 188) 0%, rgb(185, 233, 14) 35%, rgb(34, 243, 7) 100%);
+    border-right: outset 1px rgba(238, 109, 238, 0.281);
+    border-top-right-radius: 8px;
+
+}
+
+#menu li a:hover
+{
+    border-style: outset;
+    border-color: rgb(231, 209, 231);
+}
+#menu li:hover .submenu
+{
+    display: block;
+}
+
+.submenu
+{
+    list-style-type: none;
+    padding-top:10px;
+    padding-left: 0px;
+    display: none;
+    position: absolute;
+    background-color: cornsilk;
+    overflow: visible;
+}
+#menu .submenu li
+{   
+    display: block;
+    margin-top: 40px;
+    overflow: visible;
+    float:none;
+}
+#menu .submenu li a
+{
+    padding-right: 70px;
+}
